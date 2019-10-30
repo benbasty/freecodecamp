@@ -1,0 +1,3 @@
+{
+  "index.js": "function rangeOfNumbers(startNum, endNum) {\n  if(startNum === endNum){\n    return [startNum];\n  } else {\n    var num = rangeOfNumbers(startNum, endNum-1);\n    num.push(endNum);\n    return num;\n  }\n  \n};\n"
+}
