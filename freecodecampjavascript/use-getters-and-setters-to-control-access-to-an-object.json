@@ -1,0 +1,3 @@
+{
+  "index.js": "/* Alter code below this line */\nclass Thermostat {\n    constructor(fahrenheit){\n        this.fahrenheit= fahrenheit;\n    }\n    //getter\n    get temperature() {\n        return (5/9) * (this.fahrenheit -32);\n    }\n    set temperature(celcius) {\n        return this.fahrenheit = (celcius * 9.0) / 5 + 32;\n    }\n}\n/* Alter code above this line */\n\nconst thermos = new Thermostat(76); // setting in Fahrenheit scale\nlet temp = thermos.temperature; // 24.44 in C\nthermos.temperature = 26;\ntemp = thermos.temperature; // 26 in C\n"
+}

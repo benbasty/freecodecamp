@@ -1,0 +1,3 @@
+{
+  "index.js": "let a = 8, b = 6;\n// change code below this line\n[a,b] = [b,a];\n// change code above this line\nconsole.log(a); // should be 6\nconsole.log(b); // should be 8\n"
+}

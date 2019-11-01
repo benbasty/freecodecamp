@@ -1,0 +1,3 @@
+{
+  "index.js": "const LOCAL_FORECAST = {\n  yesterday: { low: 61, high: 75 },\n  today: { low: 64, high: 77 },\n  tomorrow: { low: 68, high: 80 }\n};\n\n// change code below this line\nconst {today: {low:lowToday, high:highToday}} = LOCAL_FORECAST; \n// change code above this line\n\nconsole.log(lowToday); // should be 64\nconsole.log(highToday); // should be 77\n"
+}
