@@ -1,0 +1,3 @@
+{
+  "index.js": "// add code above this line\nimport * as stringFunctions from \"./string_functions.js\";\nstringFunctions.uppercaseString(\"hello\");\nstringFunctions.lowercaseString(\"WORLD!\");\n"
+}

@@ -1,0 +1,3 @@
+{
+  "index.js": "const uppercaseString = (string) => {\n  return string.toUpperCase();\n}\n\nconst lowercaseString = (string) => {\n  return string.toLowerCase()\n}\n\nexport {uppercaseString,lowercaseString};\n"
+}

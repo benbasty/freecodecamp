@@ -1,0 +1,3 @@
+{
+  "index.js": "export default function(x, y) {\n  return x - y;\n}\n"
+}
