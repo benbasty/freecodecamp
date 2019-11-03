@@ -1,0 +1,3 @@
+{
+  "index.js": "let twinkleStar = \"Twinkle, twinkle, little star\";\nlet starRegex = /Twinkle/gi; // Change this line\nlet result = twinkleStar.match(starRegex); // Change this line\n"
+}

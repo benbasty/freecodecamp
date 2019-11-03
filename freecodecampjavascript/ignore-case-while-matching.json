@@ -1,0 +1,3 @@
+{
+  "index.js": "let myString = \"freeCodeCamp\";\nlet fccRegex = /freeCodeCamp/i; // Change this line\nlet result = fccRegex.test(myString);\n"
+}

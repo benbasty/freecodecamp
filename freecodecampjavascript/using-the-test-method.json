@@ -1,0 +1,3 @@
+{
+  "index.js": "let myString = \"Hello, World!\";\nlet myRegex = /Hello/;\nlet result = myRegex.test(myString); // Change this line\n"
+}

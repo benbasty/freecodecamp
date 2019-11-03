@@ -1,0 +1,3 @@
+{
+  "index.js": "let caboose = \"The last car on a train is the caboose\";\nlet lastRegex = /caboose$/; // Change this line\nlet result = lastRegex.test(caboose);\n"
+}

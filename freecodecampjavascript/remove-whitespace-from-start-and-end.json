@@ -1,0 +1,3 @@
+{
+  "index.js": "let hello = \"   Hello, World!  \";\nlet wsRegex = /^\\s+|\\s+$/g; // Change this line\nlet result = hello.replace(wsRegex,\"\"); // Change this line\n"
+}

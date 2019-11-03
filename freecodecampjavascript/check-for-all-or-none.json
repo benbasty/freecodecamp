@@ -1,0 +1,3 @@
+{
+  "index.js": "let favWord = \"favorite\";\nlet favRegex = /favou?rite/; // Change this line\nlet result = favRegex.test(favWord);\n"
+}

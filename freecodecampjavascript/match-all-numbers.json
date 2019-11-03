@@ -1,0 +1,3 @@
+{
+  "index.js": "let movieName = \"2001: A Space Odyssey\";\nlet numRegex = /\\d/gi; // Change this line\nlet result = movieName.match(numRegex).length;\n"
+}
