@@ -1,0 +1,5 @@
+function Dog(){
+    this.name = "Alt";
+    this.color = "yellow";
+    this.numLegs = 4;
+}
